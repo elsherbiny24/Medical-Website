@@ -1,0 +1,61 @@
+.banner{
+    min-height:60vh;
+    width: 100%;
+    background-image: url('../../aswets/1.png47.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.banner::before{
+    content: '';
+    /* background-image: url('../../aswets/zgzagfooter.png'); */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+}
+.banner h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: #1f2278;
+    letter-spacing: .5px;
+}
+.banner .icon{
+    min-width: 270px;
+    height: 58px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #565acf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .icon span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner .icon .span-1{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.banner .icon .span-1 .home-icon{
+    margin-right: 6px;
+}
+@media (max-width:600px) {
+    .banner h1{
+        font-size: 45px;
+    }
+}

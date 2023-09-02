@@ -1,0 +1,20 @@
+.team{
+    flex-direction: column;
+    align-items: center;
+}
+.team .head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team .head h5{
+    color: #f17732;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.team .head h2{
+    color: #1f2c80;
+    font-weight: 700;
+    font-size: 38px;
+    
+}

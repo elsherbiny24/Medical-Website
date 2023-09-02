@@ -1,0 +1,33 @@
+.notfound{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.notfound .img{
+    width: 300px;
+}
+.notfound h2{
+    color: #1f2278;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.notfound p{
+  font-size: 18px;
+  color: #494949;
+}
+.notfound .link{
+    text-decoration: none;
+    width: 240px;
+    height: 55px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #1d4ed8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.accordiate{
+    min-height: 80vh;
+    padding: 50px 0;
+}
+
+.accordiate .item{
+    background-color: #fff;
+    color: #222;
+}
+
+.accordiate .accordion-button{
+    background-color: #565acf;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
